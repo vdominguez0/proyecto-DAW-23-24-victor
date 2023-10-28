@@ -20,13 +20,13 @@
 
 ## Descrición
 
-> Mi proyecto será una pagina web sobre un taller de coches donde la gente podrá contactar la empresa para decir el problema concreto que tiene su coche. La página web será solo para almacenar las peticiones de los clientes y señalar en que estado se encuentran.
-Pueden estar en curso, en espera, resueltos o cerrados. Los trabajadores de la empresa tendrán que iniciar sesión en la página web para poder hacer cambios en ella.
+> Mi proyecto será una pagina web sobre tickets o etiquetas donde la gente podrá contactar la empresa para decir el problema concreto que tienen. La página web será solo para almacenar las peticiones de los clientes y señalar en que estado se encuentran.
+Pueden estar en curso, en espera, resueltos o cerrados. Los trabajadores de la empresa tendrán que iniciar sesión en la página web para poder hacer cambios en ella. Los clientes podrán ver en que estado se encuentran. El usuario tendrá que iniciar sesion para poder hacer cambios
 
 
 ## Instalación / Posta en marcha
 
-> Voy a usar el sofware que usan en la empresa en la que estoy haciendo prácticas que es glpi
+> Voy a usar osticket para crear los tickets y msql para el servidor
 
 
 ## Uso
@@ -36,7 +36,7 @@ Pueden estar en curso, en espera, resueltos o cerrados. Los trabajadores de la e
 
 ## Sobre o autor
 
-> *EXPLICACIÓN*: Realiza unha breve descrición de quen es (perfil profesional), os teus puntos fortes, ou tecnoloxías que máis dominas... a motivación do proxecto, tendo sobre todo en conta un nicho de mercado sen explotar.. *Non máis de 200 palabras**. Indica a forma fiable de contactar contigo durante o proceso de creación do proxecto.
+>Soy Victor. Domino java y php. Motivación del proyecto es hacer algo parecido a la empresa en la que estoy haciendo practicas
 
 ## Licenza
 
