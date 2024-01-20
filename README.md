@@ -26,7 +26,7 @@ Pueden estar en curso, en espera, resueltos o cerrados. Los trabajadores de la e
 
 ## Instalación / Posta en marcha
 
-> Voy a usar osticket para crear los tickets y msql para el servidor
+> En desarrollo.
 
 
 ## Uso
