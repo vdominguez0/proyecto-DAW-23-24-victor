@@ -13,12 +13,14 @@
 
 ## Descrición do proxecto
 
->**Será!**
->
->Este proyecto pretende crear un sistema de gestión de incidencias donde:
-> - El objetivo principal de la página es que los clientes contactarán con la empresa por teléfono o por email y diran que problema tienen. **Realmente este es el objetivo?, No será:** crear un sistema por medio de páginas web para la gestión de incidencias de los clientes.
-> - La página recopilará la información de cada cliente en un ticket y se podrá modificar varios atributos de cada ticket como su estado, categoría, etc.
->- Esta idea está destinada a empresas que tratan con atención al cliente como una empresda de informática que vende ordenadores o una tienda cualquiera **una tienda?? - no será empresas de soporte técnico?**. **Mejor que Mi aplicación** Esta aplicación ayudará a guardar información de una forma más centralizada y visual.
+>Este proyecto será un sistema de gestión de incidencias donde:
+> - El objetivo principal de la página será crear un sistema por medio de páginas web para la gestión de incidencias de los clientes. Los clientes contactarán con la empresa por teléfono o por email y diran que problema tienen. La página web consistirá en * páginas: La página principal, donde estará la información de la página web; una página de inicio de sesión, donde se podrá entrar como usuario o admin; una página para registrarse como usuario y una página tickets donde el usuario podrá subir su incidencia y el admin podrá consultar o cambiar atributos de éste.
+> - La página de inicio de sesion, registrase y tickets tendrán sus correspondientes inicio de sesion.php, registrarse.php y tickets.php.
+> - La página principal tendrá  el logotipo de la empresa, información, una pestaña de inicio de sesión y otra para subir los tickets.
+> - La página de inicio de sesión tendrá opción de registrarte si un cliente aun no tuviera su usuario creado.
+> - La página tickets recopilará la información de cada cliente en un ticket y se podrá modificar varios atributos de cada ticket como su estado, categoría, etc. Por ejemplo si hay una incidencia que debe estar resuelta para el día siguiente se pondrá en urgente. El admin de la página web se pondrá en contacto con la persona adecuada de la empresa dependiendo de la incidencia que haya. Cuando ya esté solucionada se cambiará a resuelto.
+> - El objetivo de la página web es solo recopilar las incidencias. En una supuesta empresa que usara esta idea los empleados solucionarían las incidencias por su cuenta.
+>- Esta idea está destinada a empresas que tratan con atención al cliente como una empresa de soporte técnico Esta aplicación ayudará a guardar información de una forma más centralizada y visual.
 
 ### Xustificación do proxecto
 
