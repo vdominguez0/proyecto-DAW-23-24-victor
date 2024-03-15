@@ -11,12 +11,18 @@
 ## Diagrama da arquitectura
 
 > *EXPLICACIÓN:* Incluír os diagramas de arquitectura que representen de forma gráfica a aplicación, os seus compoñentes e a súa interrelación: front-end, back-end, bases de datos, nube, microservizos, etc.
+> Mi página web está compuesta por lo siguiente:
+> Front-end: Archivos HTML, CSS y JS. El prototipo está hecho en Figma. Tiene diseño adaptativo (responsive design). Usa librería de javascript.
+> Back-end: Archivos php, base de datos con Mysql, phpMyAdmin, SQL
 
 ## Casos de uso
 
 > *EXPLICACIÓN:* Facer os diagramas de casos de uso que representen como as persoas usuarias interaccionan co sistema.
 >
 >Deben incluírse o(s) tipo(s) de usuario implicados en cada caso de uso.
+>
+> Solo hay usuarios admin. Primero tienen que inicar sesión para poder entrar a la página principal. Si no tienen usuario podrán registrarse. Cuando ya están en la página principal podrán
+> entrar en la página de tickets para ver los tickets disponibles. En la página de tickets podrán entrar en la página de crear tickets si quieren crear uno.
 
 ## Diagrama de Base de Datos
 
@@ -26,6 +32,8 @@
 > - Modelo relacional
 >
 > Pódese entregar a captura do phpMyAdmin se se emprega MariaDB como Modelo relacional.
+>
+> 
 
 ## Deseño de interface de usuarios
 
