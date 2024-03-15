@@ -57,4 +57,4 @@ Hay un archivo license en el repositorio
 
 ## Links
 
->[mistickets.site](http://mistickets.site/)http://mistickets.site/
+http://mistickets.site/
