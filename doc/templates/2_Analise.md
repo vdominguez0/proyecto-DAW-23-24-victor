@@ -6,8 +6,8 @@
 
 ## Funcionalidades
 
->El ususario admin podrá subir los tickets y la información estos en la página web y podrá dar de alta a los usuarios clientes.
->El admin podrá modificar datos de los clientes y las características de los tickets.
+>El ususario admin podrá subir los tickets y la información estos en la página web.
+>El admin podrá modificar las características de los tickets.
 >Se mostrarán los tickets en la página de tickets
 >
 
