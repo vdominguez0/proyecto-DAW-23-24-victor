@@ -24,7 +24,6 @@
 
 ## Normativa
 
->La página web tendrá un aviso legal y una política de privacidad en el que mencionará la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
->En el aviso se mencionará que el dueño de la empresa es el responsable del tratamiento de los datos de los clientes y que la finalidad de estos será gestionar y atender ssu incidencias.
+>La página web tiene una pagina para un aviso legal
 >
 
