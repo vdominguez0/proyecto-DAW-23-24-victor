@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 128, 255, 0.5);
+
+}
+
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+
+.caja__trasera div p,
+.caja__trasera button{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera div p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+
+.caja__trasera button:hover{
+    background: #fff;
+    color: #46A2FD;
+}
+
+/*Formularios*/
+
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+
+    /*La transicion va despues del codigo JS*/
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #46A2FD;
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+
+
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+.formulario__register{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 850px){
+
+    main{
+        margin-top: 50px;
+    }
+
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        position: absolute;
+    }
+
+
+    /*Formularios*/
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+}
+
+
+header{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 25px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+.encabezado-img{
+
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.encabezado-img p{
+	font-size: 18px;
+}
+.encabezado-img h1{
+	font-size: 50px;
+	padding: 15px 0;
+
+}
+
+
+#sobremi:before,
+#portfolio:before,
+#blog:before,
+#contacto:before{
+  position: absolute;
+  content: " ";
+  display: block;
+  height: 166px;
+  margin-top: -166px;
+  padding-top: -166px;
+  visibility: hidden;
+  position: relative;
+}
+.sobremi{
+ text-align: center;
+ background-color: grey;
+}
+.titulo-seccion{
+  font-size: 60px;
+  font-family: 'BazarMedium';
+  text-transform: uppercase;
+  color: #f6edd8;
+  text-align: center;
+  text-shadow: 1px 2px #fcfaf7, 3px 4px #484a4d;
+}
+.separador{
+  font-size: 22px;
+  text-align: center;
+  line-height: 22px;
+  margin: 5px 0;
+}
+.separador span{
+  position: relative;
+  display: inline-block;
+}
+.separador span:before{
+  right: 100%;
+  margin-right: 8px;
+}
+.separador span:before, .separador span:after{
+  content: " ";
+  position: absolute;
+  height: 6px;
+  border-bottom: 2px solid #f6edd8;
+  top: 5px;
+  width: 40px;
+}
+.separador span:after{
+  left: 100%;
+  margin-left: 8px;
+}
+.subtitulo-seccion{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Oswald';
+}
+.sobremi .fila{
+  
+  position: relative;
+ 
+}
+.sobremi .fila .item{
+  padding: 0 10px;
+}
+
+.sobremi .fila .item h4{
+  margin: 10px 0;
+  text-align: center;
+  font-family: 'BazarMedium';
+  font-size: 27px;
+  color: #f6edd8;
+}
+.sobremi .fila .item .texto{
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: 'Roboto Slab';
+  color: #f6edd8;
+}
+.sobremi .fila .item hr{
+  border: none;
+  background-color: #f6edd8;
+  height: 3px;
+  width: 40px;
+  margin: 0 auto 10px auto;
+}
+.sobremi .fila .item p{
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  color: #f6edd8;
+}
+
+
+
+.contacto{
+    
+    padding: 30px 0;
+    position: relative;
+    color: #f6edd8;
+  }
+  .claro-titulo{
+    color: #f6edd8;
+    text-align: center;
+    text-shadow: 1px 2px #484a4d, 3px 4px #fcfaf7;
+  }
+  .claro span:before, .claro span:after{
+    border-bottom: 2px solid #f6edd8;
+  }
+  .claro-txt{
+    color: #f6edd8;
+  }
+
+.contacto .formulario{
+    max-width: 480px;
+    margin: auto;
+  }
+  .contacto .formulario input, .contacto .formulario textarea{
+    font-weight: 400;
+    width: 100%;
+    padding: 8px;
+    color: #383a3c;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab';
+    font-size: 16px;
+    outline: none;
+  }
+  .contacto button{
+    display: inline-block;
+    padding: 4px 16px;
+    margin-bottom: 4px;
+    color: #383a3c;
+    background-color: #fcfaf7;
+    font-family: 'Roboto Slab';
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .contacto h5{
+    text-align: center;
+    font-family: 'BazarMedium';
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .contacto .redes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .contacto .redes a{
+    transition: .5s;
+    display: block;
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    color: #383a3c;
+    background-color: #f5eee3;
+    box-shadow: inset 0 0 0 2px #f5eee3, inset 0 0 0 4px #383a3c;
+    margin: 0 7px;
+    position: relative;
+    bottom: 0;
+  }
+
+  .contacto .redes a:hover{
+    bottom: 10px;
+  }
+    </style>
+</head>
+
+<header>
+    <nav>
+        <a href="principal.html">Inicio</a>
+        <a href="avisolegal.html">Aviso legal</a>
+        <a href="tickets.php">Tickets</a>
+        <a href="#contact">Contáctanos</a>
+    </nav>
+</header>
+
+<body>
+    <div id="sobremi"></div>
+        <section class="sobremi">
+            <div class="contenido-seccion">
+    <h2>Aviso legal</h2>
+
+
+    <p>Lea atentamente el siguiente aviso legal relativo al sitio web de MisTickets
+
+        1.1. Datos identificativos del Prestador de Servicios de la Sociedad de la Información
+        De conformidad con el artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y Comercio Electrónico, se pone en su conocimiento que MisTickets con NIF *****, gestiona los contenidos del sitio Web https://mistickets.site, con domicilio social a estos efectos en ******. está inscrito en el ******, , Tomo 3521, Sección 6, Folio 106, Hoja 51457, Fecha Registro 08/07/2014.
+        En caso de querer ponerse en contacto con nosotros, puede dirigirse al domicilio arriba indicado, así como al Teléfono: ****** y Correo-e: *****
+    </p>
+
+    <hr>
+
+    <h2>Obligaciones de uso</h2>
+
+    <p>
+
+        Con carácter general, el Usuario se obliga al cumplimiento de las presentes condiciones y términos de uso, y obrar siempre conforme a la ley, a las buenas costumbres y a las exigencias de la buena fe, empleando la diligencia adecuada a la naturaleza del servicio del que disfruta, y absteniéndose de utilizar el presente sitio web de cualquier forma que pueda impedir, dañar o deteriorar el normal funcionamiento del mismo, los bienes o derechos del titular MisTickets, del resto de Usuarios o, en general, de cualquier tercero.
+        
+         
+        
+        En particular, y sin que ello implique restricción alguna a la obligación asumida por el Usuario con carácter general de conformidad con el apartado anterior, el Usuario se obliga, en la utilización del presente sitio web a:
+        
+        mistickets podrá, en todo momento y sin previo aviso, modificar las presentes Condiciones Generales, así como las Condiciones Particulares que, en su caso, se incluyan, mediante la publicación de dichas modificaciones en el sitio web con el fin de que puedan ser conocidas por los Usuarios.
+        </p>
+
+        <hr>
+
+        <h2>Exoneración de responsabilidad</h2>
+
+        <p>
+
+            MisTickets no será responsable:
+            
+            Con carácter general, respecto del uso inadecuado de su sitio web. Los usuarios deberán realizar un uso adecuado del mismo, sin que ninguna responsabilidad pueda tener el titular por la utilización indebida.
+            Respecto de posibles deficiencias técnicas. mistickets no será responsable en ningún caso de las alteraciones en el servicio que se produzcan por fallos en la red eléctrica, en la red de conexión de datos, en el servidor o en cualesquiera prestaciones.
+            Respecto al acceso por terceros a su sistema. mistickets. adoptará las cautelas técnicas necesarias a fin de proteger los datos e información a la que se accede, pero sin que sea responsable de actuaciones de terceros que, vulnerando las medidas de seguridad establecidas, accedan a los citados datos.
+            mistickets invierte constantemente en medios tecnológicos que intentan minimizar el riesgo de virus y software similar, y contenidos no autorizados en sus sistemas de información. A pesar de ello, el Usuario es consciente de que debe adoptar sus propias medidas orientadas a minimizar los daños ocasionados por software no autorizado, virus, troyanos y cualquier clase del software denominado mal-ware, eximiendo a mistickets. de toda responsabilidad que pudiese derivarse de la contención de malware en los tratamientos habilitados en la presente web.
+            </p>
+<hr>
+
+            <h2>Jurisdicción y legislación aplicable</h2>
+
+            <p>
+
+                Los términos y condiciones que rigen este sitio web y todas las relaciones que pudieran derivarse se encuentran salvaguardados por la legislación española.
+                
+                Cualquier controversia que pudiera derivarse del acceso o la utilización de este sitio web será de competencia de los tribunales de Pontevedra.
+                </p>
+                <div class="separador">
+                    <span>&#215;&#215;&#215;</span>
+                </div>
+            </div>
+</body>
+</html>
