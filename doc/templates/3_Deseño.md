@@ -23,22 +23,14 @@
 > entrar en la página de tickets para ver los tickets disponibles. En la página de tickets podrán entrar en la página de crear tickets si quieren crear uno.
 
 ## Diagrama de Base de Datos
-
-> *EXPLICACIÓN:* Neste apartado incluiranse os diagramas relacionados coa Base de Datos:
->
-> - Modelo Entidade/relación
-> - Modelo relacional
->
-> Pódese entregar a captura do phpMyAdmin se se emprega MariaDB como Modelo relacional.
+He subido captura de mi base de datos en phpMyAdmin en la carpeta basedatos.
 >
 > 
 
 ## Deseño de interface de usuarios
 
-> *EXPLICACIÓN:* Neste apartado deben incluírse unha mostra representativan dos mockups da aplicación. Estes mockups deben incluír todas as vistas da aplicación, é dicir, todas as páxinas diferentes que unha persoa usuaria (de calquera tipo) vai poder ver. Tamén se debe incluír información de como navegar dunha ventá a outra.
+
+> Primero entras en la página de inicio de sesión o registrar usuario. Una vez dentro habrá unas pestañas en la parte de arriba que te llevan a la página de tickets o a la página principal.
+> He subido el prototipo en figma en la carpeta de prototipo
 >
-> Os mockups axudan no deseño da aplicación. Poden facerse á man, cunha aplicación ou a través dunha web do estilo: diagrams
-Un mockup permite ver como se verá unha páxina concreta dunha aplicación web. O deseño de mockups axuda a:
->
-> - Avanzar moi rápido na parte frontend: ao ter os mockups realizados, permite saber que elementos vai ter cada vista e onde colocalos.
-> - Visualizar a información que vai a ser necesaria mostrar. Sabendo con que información imos traballar e sabendo a información que necesitamos mostrar, podemos organizar os datos dunha forma axeitada para gardalos na base de datos.
+
