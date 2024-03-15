@@ -2,7 +2,7 @@
 
 ## Descrición Xeral
 
->Sistema de gestión de incidenciaso tickests de los clientes.
+>Sistema de gestión de incidencias o tickests de los clientes.
 
 ## Funcionalidades
 
