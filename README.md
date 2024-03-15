@@ -16,22 +16,21 @@
 
 ## Taboleiro do proyecto
 
-> En desarrollo
+>Completado
 
 ## Descrición
 
-> Mi proyecto será una pagina web sobre tickets o etiquetas donde la gente podrá contactar la empresa para decir el problema concreto que tienen. La página web será solo para almacenar las peticiones de los clientes y señalar en que estado se encuentran.
-Pueden estar en curso, en espera, resueltos o cerrados. Los trabajadores de la empresa tendrán que iniciar sesión en la página web para poder hacer cambios en ella. Los clientes podrán ver en que estado se encuentran. El usuario tendrá que iniciar sesion para poder hacer cambios
+> Mi proyecto será una pagina web donde emprersas de informática que tratan con atención al cliente podrán subir las incidencias de los clientes a esta página web y tenerlas organizadas
 
 
 ## Instalación / Posta en marcha
 
-> En desarrollo.
+> Completa
 
 
 ## Uso
 
-> El uso es simple. Habrá un botón para poder añadir peticiones. Al clicarlo irás a la pagina de la forma de la petición en la que podrás poner el estado, la fecha, la categoría, etc. 
+> Esta página la usarán mayormente empresas de tecnología que tratan del mantenimento de ordenadores, routers, etc de sus clientes. 
 
 
 ## Sobre o autor
